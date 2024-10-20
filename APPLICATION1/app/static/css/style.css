@@ -1,33 +1,34 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
-    color: #333;
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #eef2f5;
+    color: #2c3e50;
     margin: 0;
     padding: 0;
 }
 
 .container {
-    width: 60%;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    margin: 60px auto;
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
 }
 
 h1 {
     text-align: center;
-    color: #4CAF50;
+    color: #be402a;
+    font-size: 2.5em;
 }
 
 .form-section {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .form-row {
     display: flex;
     justify-content: space-between;
-    gap: 10px;
+    gap: 15px;
 }
 
 .form-col {
@@ -36,60 +37,61 @@ h1 {
 
 label {
     display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-    color: #555;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #34495e;
 }
 
 input[type="text"], textarea {
     width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 14px;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 1px solid #bdc3c7;
+    border-radius: 6px;
+    font-size: 15px;
     resize: vertical;
     box-sizing: border-box;
 }
 
 textarea {
-    height: 150px;
+    height: 180px;
 }
 
 button {
     display: block;
     width: 100%;
-    padding: 10px;
-    background-color: #4CAF50;
+    padding: 12px;
+    background-color: #be402a;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 6px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 17px;
+    transition: background-color 0.3s ease;
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #be402a;
 }
 
 .result-section {
-    margin-top: 20px;
-    padding: 10px;
-    border: 1px solid #4CAF50;
-    border-radius: 5px;
-    color: #4CAF50;
+    margin-top: 25px;
+    padding: 12px;
+    border: 1px solid #be402a;
+    border-radius: 6px;
+    color: #be402a;
     font-weight: bold;
     text-align: center;
 }
 
 .result-true {
-    background-color: #e7f5e6;
-    border-color: #4CAF50;
-    color: #4CAF50;
+    background-color: #dff0d8;
+    border-color: #be402a;
+    color: #be402a;
 }
 
 .result-false {
-    background-color: #f5e6e6;
-    border-color: #f44336;
-    color: #f44336;
+    background-color: #f2dede;
+    border-color: #22a3a3;
+    color: #22a3a3;
 }
